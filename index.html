@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Portfolio</title>
-    
+
     <!-- metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio for studying markup." />
@@ -11,13 +11,50 @@
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- font -->
-    
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- css -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navBar">
+      <div class="navbar_logo"></div>
+      <i class="fab fa-diaspora"></i>
+      <a href="#">Seokcheol</a>
+      <div class="navbar_menu">
+        <ul>
+          <li class="navbar_menu_item">Home</li>
+          <li class="navbar_menu_item">About</li>
+          <li class="navbar_menu_item">Skills</li>
+          <li class="navbar_menu_item">Work</li>
+          <li class="navbar_menu_item">Testimonials</li>
+          <li class="navbar_menu_item">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <img class="home_avartar" src="./assets/profile.png" alt="profile" />
+      <h1 class="home_title">Hello, <br />Title</h1>
+      <h2 class="home_description">description</h2>
+      <button class="home_button">Contact</button>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div></div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skill"></section>
+    <section id="work"></section>
+    <section id="testimonials"></section>
+    <section id="contact"></section>
 
     <!-- script -->
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
